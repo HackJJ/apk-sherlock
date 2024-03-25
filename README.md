@@ -1,7 +1,9 @@
 
 # APK-Sherlock
 
-Welcome to **APK-Sherlock**! 🔍📱 This nifty tool is your personal detective for investigating Android APK files. With APK-Sherlock, you can decompile APKs using `apktool`, inspect the Java source code with `jadx`, and even peek inside the APK files with `unzip`. 
+Welcome to **APK-Sherlock**! 🔍📱 
+
+This nifty tool is your personal detective for investigating Android APK files. With APK-Sherlock, you can decompile APKs using `apktool`, inspect the Java source code with `jadx`, and even peek inside the APK files with `unzip`. 
 
 ## Features
 
