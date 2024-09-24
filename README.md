@@ -56,13 +56,7 @@ After running the command, you'll find the decompiled APK, Java source code, and
 
 ## I have a Android App Bundle (AAB) file. What now?
 
-I mean, sure, I could automate this but I am lazy, so please submit a PR if you want :-). For now:
-
-- Get [bundletool](https://developer.android.com/tools/bundletool)
-- Run `bundletool build-apks --bundle=/location/of/the/file/app.aab --output=/where/you/want/the/file/to/go/app.apks --mode=universal`
-- Change the output file name from `.apks` to `.zip`
-- Unzip and explore
-- The file `universal.apk` is your app
+[Follow this guide](aab2apk.md)
 
 ## License
 
