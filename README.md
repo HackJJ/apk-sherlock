@@ -25,7 +25,7 @@ This nifty tool is your personal detective for investigating Android APK files. 
    Run the following command to build the APK-Sherlock Docker image:
 
    ```bash
-   docker build -t apktool-jadx-image .
+   docker build -t apksherlock .
    ```
 
 2. **Run APK-Sherlock**
@@ -33,7 +33,7 @@ This nifty tool is your personal detective for investigating Android APK files. 
    To analyze an APK file, use the command:
 
    ```bash
-   docker run -it --rm -e APK_FILE=/data/your_apk_file.apk -v /path/to/your/apk/files:/data -v /host/output/path:/workspace apktool-jadx-image
+   docker run -it --rm -e APK_FILE=/data/your_apk_file.apk -v /path/to/your/apk/files:/data -v /host/output/path:/workspace apksherlock
    ```
 
    Replace `/path/to/your/apk/files` with the directory containing your APK file, and `/host/output/path` with the directory where you want to store the output.
