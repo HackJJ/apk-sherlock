@@ -6,8 +6,8 @@ RUN apk update && \
     apk add --no-cache openjdk11-jre curl unzip bash
 
 # Arguments for specifying the versions of apktool and jadx
-ARG APKTOOL_VERSION=2.9.3
-ARG JADX_VERSION=1.4.7
+ARG APKTOOL_VERSION=2.10.0
+ARG JADX_VERSION=1.5.0
 
 # Download and set up apktool
 
