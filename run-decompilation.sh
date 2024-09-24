@@ -8,7 +8,7 @@ if [ -z "$APK_FILE" ]; then
 fi
 
 # Define the output directory
-OUTPUT_DIR="/workspace/chcmob"
+OUTPUT_DIR="/workspace/sherlock"
 
 # Create output directory
 mkdir -p "${OUTPUT_DIR}"
