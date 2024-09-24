@@ -1,5 +1,5 @@
 
-# Convert AAB to APK using Bundletool
+# Convert AAB to APK
 
 This guide will show you how to convert an **Android App Bundle (AAB)** file into an **APK** using [Bundletool](https://developer.android.com/studio/command-line/bundletool). Follow these simple steps to generate a universal APK.
 
