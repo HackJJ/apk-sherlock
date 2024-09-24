@@ -46,13 +46,13 @@ Analyze `example.apk` and save output to `/Users/johnDoe/APK_Analysis`:
 docker run -it --rm -e APK_FILE=/data/example.apk -v /Users/johnDoe/Downloads:/data -v /Users/johnDoe/APK_Analysis:/workspace apktool-jadx-image
 ```
 
-After running the command, you'll find the decompiled APK, Java source code, and unzipped contents in `/Users/johnDoe/APK_Analysis/chcmob`.
+After running the command, you'll find the decompiled APK, Java source code, and unzipped contents in `/Users/johnDoe/APK_Analysis/sherlock`.
 
 ## Output Structure
 
-- `/workspace/chcmob/decompiled`: Decompiled resources and smali files from the APK.
-- `/workspace/chcmob/java-code`: Java source code obtained from DEX files.
-- `/workspace/chcmob/unzipped`: All files extracted directly from the APK.
+- `/workspace/sherlock/decompiled`: Decompiled resources and smali files from the APK.
+- `/workspace/sherlock/java-code`: Java source code obtained from DEX files.
+- `/workspace/sherlock/unzipped`: All files extracted directly from the APK.
 
 ## License
 
